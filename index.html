@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>ENCRIPTANDO ALURA</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Img/logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorcajatexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Img/alerta.jpg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="CLICK PARA ENCRIPTAR">
+                <input type="button" class="btn-desencriptar" value="CLICK PARA DESENCRIPTAR">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorimagen">
+                <img src="Img/Muñeco.png" alt="muñeco">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>NO HAY DATOS</h3>
+                <p>escriba el texto que desea operar.</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="COPIAR TEXTO">
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
