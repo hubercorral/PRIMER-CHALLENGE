@@ -63,22 +63,22 @@ main{
 
 .alerta{
     position: absolute;
-    top: 750px;
+    top: 1000px;
     left: 370px;
     display: flex;
-    color: #495057;
+    color:transparent;
 }
 
 .contenedor-botones{
     position: absolute;
-    top: 800px;
+    top: 400px;
     height: 80px;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 15px;
 }
 
 .btn-encriptar{
-    width: 328px;
+    width: 200px;
     height: 67px;
     border-radius: 24px;
     background-color: #0A3871;
@@ -92,7 +92,7 @@ main{
 }
 
 .btn-desencriptar{
-    width: 328px;
+    width: 250px;
     height: 67px;
     border-radius: 24px;
     background-color: #D8DFE8;
